@@ -45,9 +45,11 @@
     display: block;
   }
   textarea, input {
+    display: block;
     padding: .5%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    margin-bottom: 2%;
   }
   
   textarea:focus, input:focus {
@@ -159,7 +161,7 @@
   }
   
   .new-post-form input {
-    width: 100%;
+    width: 45%;
   }
   
   .edit-post-form {
@@ -191,3 +193,4 @@
   section{
     margin-bottom: 3%;
   }
+  
